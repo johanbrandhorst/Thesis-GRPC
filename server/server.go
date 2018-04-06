@@ -7,7 +7,7 @@ import (
 	"log"
 	"net"
 
-	pb "../gRPC"
+	pb "github.com/Todai88/Thesis-GRPC/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
