@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	address = "10.146.200.78:5000"
+	address = "localhost:5000"
 )
 
 func connectUser(client pb.GRPCClient) int32 {

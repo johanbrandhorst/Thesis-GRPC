@@ -73,7 +73,7 @@ func newServer() *server {
 
 func main() {
 	// users = make(map[int32]User)
-	lis, err := net.Listen("tcp", "10.146.200.78:5000")
+	lis, err := net.Listen("tcp", ":5000")
 
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
